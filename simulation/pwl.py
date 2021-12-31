@@ -1,9 +1,11 @@
-i = 0.000001
+i = 0.0000001
 t_max = 0.02
 i_max = int(t_max / i)
 
-p_sw = int(0.0001 / i)
-p_ac = int(0.01 / i)
+f_sw = 100000
+p_sw = int((1 / f_sw) / i)
+f_ac = 100
+p_ac = int((1 / f_ac) / i)
 ac_duty = 0.5
 
 v_out = 15
