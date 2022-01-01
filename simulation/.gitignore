@@ -3,3 +3,5 @@
 *.raw
 *.plt
 pwl.txt
+outp.txt
+outn.txt
