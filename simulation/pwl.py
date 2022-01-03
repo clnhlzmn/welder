@@ -17,7 +17,7 @@ v_gs = 15
 sw_state = 0
 ac_state = 0
 
-with (open('pwl.txt', 'w+') as out,
+with (open('vout.txt', 'w+') as out,
     open('outp.txt', 'w+') as outp,
     open('outn.txt', 'w+') as outn):
     on_time = 0
