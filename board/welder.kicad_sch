@@ -2810,6 +2810,11 @@
     (uuid ff8c4259-412b-4326-a7f4-1750a68b3199)
   )
 
+  (text "PWM	POL	AH	AL	BH	BL\n0	X	0	0	0	0\n1	1	1	0	0	1\n1	0	0	1	1	0"
+    (at 210.82 66.04 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 4a8cf9ce-fdd7-4c3d-953b-97bad67f79c9)
+  )
   (text "Rshunt: 100 uOhm\nIshunt: [-165, 165] A\nVshunt: [-16.5, 16.5] mV\ngain: 100 V/V\nVout: [0, 3.3] V"
     (at 383.54 157.48 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
