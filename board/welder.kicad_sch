@@ -3170,7 +3170,7 @@
     (property "Value" "50 uF" (id 1) (at 382.27 76.1999 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (id 2) (at 379.4252 80.01 0)
+    (property "Footprint" "welder:Cornell_Dublier_B10" (id 2) (at 379.4252 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 378.46 76.2 0)
@@ -3923,7 +3923,7 @@
       (reference "C19") (unit 1) (value "0.1 uF") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
     (path "/74e52290-b4a3-4f30-829f-bf68e89657d3"
-      (reference "C20") (unit 1) (value "50 uF") (footprint "")
+      (reference "C20") (unit 1) (value "50 uF") (footprint "welder:Cornell_Dublier_B10")
     )
     (path "/15aa1d89-1ae9-4558-9d8b-606633d6c749"
       (reference "D1") (unit 1) (value "10A10-T") (footprint "Diode_THT:D_P600_R-6_P7.62mm_Vertical_AnodeUp")
