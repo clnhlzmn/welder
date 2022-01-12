@@ -2922,7 +2922,7 @@
     (uuid 4385f506-0231-4a07-94dc-6e37a0993936)
     (property "Reference" "FB1" (id 0) (at 41.8592 118.11 90))
     (property "Value" "Ferrite_Bead" (id 1) (at 41.8592 120.65 90))
-    (property "Footprint" "Inductor_SMD:L_0603_1608Metric" (id 2) (at 41.91 123.952 90)
+    (property "Footprint" "Inductor_SMD:L_0805_2012Metric" (id 2) (at 41.91 123.952 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 41.91 125.73 0)
@@ -3069,7 +3069,7 @@
     (uuid 605c0c72-577a-420e-a1f2-9c549bf938f8)
     (property "Reference" "R3" (id 0) (at 373.38 91.44 90))
     (property "Value" "0.0001" (id 1) (at 373.38 93.98 90))
-    (property "Footprint" "" (id 2) (at 373.38 102.108 90)
+    (property "Footprint" "welder:RES_5931" (id 2) (at 373.38 102.108 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 373.38 100.33 0)
@@ -3476,7 +3476,7 @@
     (uuid b52a224f-7f04-4e02-9abf-b091b5cdd9ca)
     (property "Reference" "L1" (id 0) (at 373.38 45.72 90))
     (property "Value" "20 uH" (id 1) (at 373.38 48.26 90))
-    (property "Footprint" "" (id 2) (at 373.38 52.07 0)
+    (property "Footprint" "welder:inductor" (id 2) (at 373.38 52.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 373.38 52.07 0)
@@ -3941,7 +3941,7 @@
       (reference "D5") (unit 1) (value "FML340A-W") (footprint "Diode_SMD:D_SMA")
     )
     (path "/4385f506-0231-4a07-94dc-6e37a0993936"
-      (reference "FB1") (unit 1) (value "Ferrite_Bead") (footprint "Inductor_SMD:L_0603_1608Metric")
+      (reference "FB1") (unit 1) (value "Ferrite_Bead") (footprint "Inductor_SMD:L_0805_2012Metric")
     )
     (path "/9a2530d0-2be0-4564-82ea-55a5f02a536a"
       (reference "J1") (unit 1) (value "VIN") (footprint "MountingHole:MountingHole_6.4mm_M6_Pad")
@@ -3965,7 +3965,7 @@
       (reference "J7") (unit 1) (value "GND") (footprint "MountingHole:MountingHole_6.4mm_M6_Pad")
     )
     (path "/b52a224f-7f04-4e02-9abf-b091b5cdd9ca"
-      (reference "L1") (unit 1) (value "20 uH") (footprint "")
+      (reference "L1") (unit 1) (value "20 uH") (footprint "welder:inductor")
     )
     (path "/ba154238-685f-413a-8934-e53ce3e1c078"
       (reference "Q1") (unit 1) (value "Q_NIGBT_GCE") (footprint "Package_TO_SOT_THT:TO-247-3_Vertical")
@@ -3986,7 +3986,7 @@
       (reference "R2") (unit 1) (value "100k") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/605c0c72-577a-420e-a1f2-9c549bf938f8"
-      (reference "R3") (unit 1) (value "0.0001") (footprint "")
+      (reference "R3") (unit 1) (value "0.0001") (footprint "welder:RES_5931")
     )
     (path "/070672ed-1ab6-4925-9102-8c9f7c67d003"
       (reference "U1") (unit 1) (value "ATSAMD21E18A-A") (footprint "Package_QFP:TQFP-32_7x7mm_P0.8mm")
